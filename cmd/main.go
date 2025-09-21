@@ -18,6 +18,7 @@ func main() {
 		authRoutes.POST("register", auth.Register)
 		authRoutes.POST("login", auth.Login)
 	}
+	//bjnk
 	log.Println("Server running on port 8080")
 	r.Run(":8080")
 }
